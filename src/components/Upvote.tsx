@@ -18,7 +18,7 @@ const Upvote: React.FC<UpvoteProps> = ({
 }) => {
     return (
         <button
-            className={`upvote ${isSelected ? 'selected' : 'default'}`}
+            className={`upvote ${isSelected ? 'selected' : 'default'}`} //marks button bg color based on selected
             onClick={onToggle}
             // role="button"
         >
@@ -27,7 +27,7 @@ const Upvote: React.FC<UpvoteProps> = ({
                 height="24"
                 viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg"
-                fill={isSelected ? selectedColor : defaultColor}
+                fill={isSelected ? selectedColor : defaultColor} //mark arrow color based on selected
             >
                 <path d={svgPath} />
             </svg>

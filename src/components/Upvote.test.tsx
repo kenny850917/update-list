@@ -1,9 +1,9 @@
-import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import Upvote from './Upvote';
 
 test('renders with correct initial state and toggles on click', () => {
+    //just need to mock the click, doesn't need the function to return anything
     const onToggleMock = jest.fn();
 
     // Render the Upvote component with a button

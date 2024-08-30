@@ -19,7 +19,3 @@
     border: 1px solid #ddd;
     background-color: #F4F6F8;
 }
-.add-button:active {
-    background-color: #F4F6F8; /* Same as the default background color */
-    border: 1px solid #ddd; /* Same as the default border color */
-}
