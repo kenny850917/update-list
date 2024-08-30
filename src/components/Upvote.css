@@ -1,0 +1,23 @@
+.upvote {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    background-color: #F4F6F8;
+}
+.upvote svg {
+    width: 24px;
+    height: 24px;
+}
+
+.upvote.selected {
+    background-color: #E5E8FD; /* Selected background color */
+}
+
+.upvote.selected svg {
+    fill: #253CF2; /* Selected arrow color */
+}

@@ -1,0 +1,25 @@
+.upvotes-list {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 16px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+}
+
+.add-button {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    background-color: #F4F6F8;
+}
+.add-button:active {
+    background-color: #F4F6F8; /* Same as the default background color */
+    border: 1px solid #ddd; /* Same as the default border color */
+}
