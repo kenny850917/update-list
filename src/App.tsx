@@ -4,7 +4,7 @@ import UpvotesList from './components/UpvotesList';
 import { UpvoteProvider } from './components/UpvoteContext';
 
 function App() {
-  // add more upvotes when needed
+  // add more upvotes below if needed
   const upvotesIds = ['upvotes-list-1', 'upvotes-list-2', 'upvotes-list-3'];
     return (
       <div className="App">

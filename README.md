@@ -11,11 +11,12 @@ Reusable Components: The Upvote component is designed to be reusable across diff
 State Management: The component uses props to manage its selected state (isSelected) and to handle user interaction via a callback function (onToggle), also stored in local storage. Refreshing the page will make the states of upvotes stay.
 
 ## Project Structure
-UpvoteContext.tsx: Provides context for managing the state of upvote lists.
-App.tsx: The entry point that combines multiple upvote lists.
-UpvotesList.tsx: Renders a list of Upvote components.
-Upvote.tsx: The main React component that renders the upvote button.
-Upvote.test.tsx: Contains the unit tests for the Upvote component using React Testing Library and Jest.
+are all located in the components folder. 
+src/components/UpvoteContext.tsx: Provides context for managing the state of upvote lists.
+src/App.tsx: The entry point that combines multiple upvote lists.
+src/components/UpvotesList.tsx: Renders a list of Upvote components.
+src/components/Upvote.tsx: The main React component that renders the upvote button.
+src/components/Upvote.test.tsx: Contains the unit tests for the Upvote component using React Testing Library and Jest.
 
 ### `npm start`
 

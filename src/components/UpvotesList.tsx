@@ -9,6 +9,7 @@ const UpvotesList: React.FC = () => {
     const { upvotes, toggleUpvotes, addUpvote } = useUpvote();
 
     return (
+        //render all the upvotes in a same upvote list
         <div className="upvotes-list">
             {upvotes.map((isSelected, index) => (
                 <Upvote
